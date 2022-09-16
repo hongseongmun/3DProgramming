@@ -62,27 +62,23 @@ int main(void)
         glfwGetFramebufferSize(window, &width, &height);
         ratio = width / (float)height;
         
-        
-        ////90도와 같이 각도로 연산하고 싶으면
-        ////glm의 삼각함수는 radian 형식으로 입력을 받기 때문에 변환해서 넣어주어야한다.
-        //glm::sin(glm::radians(90.0));  
+
         
         glClearColor(0.0f, 0.0f, 0.0f, 0.1f);
         glClear(GL_COLOR_BUFFER_BIT);
 
         glBegin(GL_LINE_STRIP);
 
-
-       for (int k = 0; k <= 120; k++)
-        {
-            glVertex2f(glm::cos(glm::radians(angle2)*k),glm::sin(glm::radians(angle2)*k));
-       }
-        
-        
-      // for (int i = 0; i <= 360; i++)
-      // {
-      //     glVertex2f(glm::cos(i*angle),glm::sin(i*angle));
+      // for (int k = 0; k <= 120; k++)
+      //  {
+      //      glVertex2f(glm::cos(glm::radians(angle2*radius)*k),glm::sin(glm::radians(angle2*radius)*k));
      //  }
+        
+        
+       for (int i = 0; i <= 360; i++)
+       {
+           glVertex2f(glm::cos((angle*radius)*i),glm::sin((angle*radius)*i));
+       }
       
 
         glEnd();
