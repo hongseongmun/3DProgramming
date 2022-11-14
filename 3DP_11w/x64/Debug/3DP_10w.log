@@ -1,0 +1,9 @@
+﻿  3DP_10w.cpp
+C:\Users\User\OneDrive\바탕 화면\3DProgramming-master (1)\3DProgramming-master\3DP_10w\3DP_10w.cpp(10,1): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\User\OneDrive\바탕 화면\3DProgramming-master (1)\3DProgramming-master\3DP_10w\MuSoenMath.h(155): warning C4172: 지역 변수 또는 임시: mm의 주소를 반환하고 있습니다.
+C:\Users\User\OneDrive\바탕 화면\3DProgramming-master (1)\3DProgramming-master\3DP_10w\MuSoenMath.h(48): warning C4172: 지역 변수 또는 임시: mm의 주소를 반환하고 있습니다.
+C:\Users\User\OneDrive\바탕 화면\3DProgramming-master (1)\3DProgramming-master\3DP_10w\MuSoenMath.h(85): warning C4172: 지역 변수 또는 임시: sm의 주소를 반환하고 있습니다.
+C:\Users\User\OneDrive\바탕 화면\3DProgramming-master (1)\3DProgramming-master\3DP_10w\MuSoenMath.h(192): warning C4172: 지역 변수 또는 임시: sm의 주소를 반환하고 있습니다.
+C:\Users\User\OneDrive\바탕 화면\3DProgramming-master (1)\3DProgramming-master\3DP_10w\MuSoenMath.h(98): warning C4172: 지역 변수 또는 임시: sm의 주소를 반환하고 있습니다.
+C:\Users\User\OneDrive\바탕 화면\3DProgramming-master (1)\3DProgramming-master\3DP_10w\MuSoenMath.h(205): warning C4172: 지역 변수 또는 임시: sm의 주소를 반환하고 있습니다.
+  3DP_10w.vcxproj -> C:\Users\User\OneDrive\바탕 화면\3DProgramming-master (1)\3DProgramming-master\x64\Debug\3DP_10w.exe
